@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uts_10118362_shendi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="UTS_10118362"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Uts_10118362_Shendi">
+<activity android:name=".MainView"/>
+        <activity
+            android:name=".MainActivity"
+            android:label="Shendi Rakhma Diansyah"
+            android:theme="@style/Theme.Uts_10118362_Shendi.NoActionBar" />
+        <activity android:name=".EditActivity" />
+        <activity android:name=".AddActivity" />
+
+        <activity android:name="SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
